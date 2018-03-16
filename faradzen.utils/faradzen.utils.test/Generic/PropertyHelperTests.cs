@@ -21,6 +21,9 @@ namespace faradzen.utils.test.Generic
             res = helper.GetPropertyType("Link");
             Assert.AreEqual(typeof(MyFooLink), res);
 
+            res = helper.GetPropertyType("Price");
+            Assert.AreEqual(typeof(int?), res);
+
             res = helper.GetPropertyType("Link.Value");
             Assert.AreEqual(typeof(string), res);
 
