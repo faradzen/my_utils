@@ -12,5 +12,7 @@ namespace faradzen.utils.test.TestInfrastruct.Model
         public string Name { get; set; }
 
         public MyFooLink Link { get; set; }
+
+        public MyFooBook Book { get; set; }
     }
 }
